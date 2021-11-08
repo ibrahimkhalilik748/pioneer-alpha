@@ -7,10 +7,10 @@ const AboutUS = () => {
         <div className="container mt-5 AboutUS">
             <div className="row">
                 <div className="col-md-5">
-                    <div className="row">
-                        <div className="col-4 images"><img src={IMG1} alt="" /></div>
-                        <div className="col-4 images "><br /><br /><br /><img src={IMG1} alt="" /></div>
-                        <div className="col-4 images "><br /><br /><br /><br /><br /><br /><br /><img src={IMG1} alt="" /></div>
+                    <div className="images">
+                        <span className=""></span>
+                        <span className=""></span>
+                        <span className=""></span>
                     </div>
                 </div>
                 <div className="col-md-7 p-5">

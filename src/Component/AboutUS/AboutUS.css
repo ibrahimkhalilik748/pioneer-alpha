@@ -4,14 +4,33 @@
     height: 100vh;
     /* overflow: hidden; */
 }
-.AboutUS ul li{
-    list-style-type: none;
-    /* float: left; */
+.images{
+    top: 20px;
+    width: 100%;
+    height: 300px;
+    position: relative;
 }
-.AboutUS img{
-    width: 500%;
+.images span{
+    transition: .5s;
+    width: 100%;
+    height: 150%;
+    left: 0;
+    position: absolute;
+    background-image: url(../images/PicsArt_02-18-12.12.10.jpg);
+    background-size:cover;
 }
-.AboutUS .images{
-    overflow: hidden;
-    /* width: 30%; */
+.images span:nth-child(1){
+    clip-path: polygon(0 0, 33% 0, 33% 100%, 0 100%);
+    left: 0px;
 }
+.images span:nth-child(2){
+    clip-path: polygon(66% 0, 33% 0, 33% 100%, 66% 100%);
+    left: 10px;
+    top: 80px;
+}
+.images span:nth-child(3){
+    clip-path: polygon(66% 0, 100% 0, 100% 100%, 66% 100%);
+    left: 20px;
+    top: 160px;
+}
+
