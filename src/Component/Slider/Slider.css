@@ -1,0 +1,48 @@
+.slider{
+    width: 100%;
+    position: relative;
+}
+.slider .text{
+    margin-bottom: 100px;
+    color: #fff;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .slider .text{
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 770px) {
+    .slider .text{
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .slider .text h1{
+        margin-top:10px;
+        font-size: 25px;
+    }
+    .slider .text p{
+        font-size: 12px;
+    }
+    .slider .text button{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .slider .text{
+        margin-top:15px;
+        margin-bottom:0px;
+    }
+    .slider .text h1{
+        margin-top:15px;
+        font-size: 10px;
+    }
+    .slider .text p{
+        font-size: 5px;
+    }
+    .slider .text button{
+        font-size: 5px;
+    }
+}

@@ -1,0 +1,17 @@
+.AboutUS{
+    margin-top: 50px;
+    width: 100%;
+    height: 100vh;
+    /* overflow: hidden; */
+}
+.AboutUS ul li{
+    list-style-type: none;
+    /* float: left; */
+}
+.AboutUS img{
+    width: 500%;
+}
+.AboutUS .images{
+    overflow: hidden;
+    /* width: 30%; */
+}
