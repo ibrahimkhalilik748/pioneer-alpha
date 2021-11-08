@@ -27,7 +27,7 @@ const Navigation = () => {
                             <li>
                                 <Link to="/">FAQ</Link>
                             </li>
-                            <li style={{"border-bottom":" 1px solid black"}}>
+                            <li className="list">
                                 <Link to="/">Contact</Link>
                             </li>
                         </ul>
